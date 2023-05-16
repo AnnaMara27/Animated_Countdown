@@ -45,6 +45,7 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+  text-align: center;
 }
 
 .final.show {
@@ -122,4 +123,24 @@ h4 {
   100% {
     transform: translate(-50%, -50%) rotate(-120deg);
   }
+}
+
+#replay {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: solid 1px #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#replay:hover {
+  color: #000;
+}
+
+#replay:focus {
+  outline: none;
 }
